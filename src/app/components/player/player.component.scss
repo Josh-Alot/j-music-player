@@ -5,7 +5,7 @@
 
 .player-container {
    border-radius: 10%;
-   background-color: rgba($color: #aacc00, $alpha: 0.5);
+   background-color: rgba($color: #2b9348, $alpha: 0.8);
    margin: 2rem;
    padding: 4rem 0;
    text-align: center;
@@ -28,6 +28,12 @@
       p {
          color: #cae9ff;
          padding-bottom: 4rem;
+      }
+   }
+
+   &--audio-container {
+      audio {
+         display: none;
       }
    }
 
