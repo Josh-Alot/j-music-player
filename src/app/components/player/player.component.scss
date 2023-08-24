@@ -1,3 +1,22 @@
 .player-container {
+   border-radius: 20%;
+   // background-color: #0077B6;
+   background-color: rgba($color: #0077B6, $alpha: 0.3);
+   padding: 3rem;
    text-align: center;
+
+   &--song-info {
+      display: flex;
+      flex-direction: column;
+      padding-top: 2rem;
+      h2 {
+         color: #cae9ff;
+         padding-bottom: 0.5rem;
+      }
+
+      p {
+         color: #cae9ff;
+         padding-bottom: 5rem;
+      }
+   }
 }
