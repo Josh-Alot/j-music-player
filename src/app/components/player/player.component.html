@@ -1,14 +1,27 @@
 <main class="player-container">
-   <div class="player-container--album-cover">
-      <img src="" alt="album cover">
-   </div>
+   <span class="player-container--album-cover">
+      <img 
+         src="https://i.pinimg.com/736x/85/59/1a/85591a502541135dbcb13843bd0f72e3--music-album-covers.jpg" 
+         alt="album cover">
+   </span>
    <div class="player-container--song-info">
       <h2>Song Title</h2>
       <p>Artist Name</p>
    </div>
    <div class="player-container--interactive-buttons">
-      <button>Previous</button>
-      <button>Play/Pause</button>
-      <button>Next</button>
+      <button>
+         <i class="gg-play-backwards"></i>
+      </button>
+      <button>
+         <!-- 
+            TODO: change the button when the music is playing 
+            TODO: and change the button when the music is paused
+         -->
+         <!-- <i class="gg-play-pause"></i> -->
+         <i class="gg-play-button"></i>
+      </button>
+      <button>
+         <i class="gg-play-forwards"></i>
+      </button>
    </div>
 </main>
