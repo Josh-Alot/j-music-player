@@ -1,27 +1,24 @@
-# JMusicPlayer
+# BluJ Music Player
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
+A simple music player created for educational purposes.
 
-## Development server
+## Why Are you making a music player? There are a lot of alternatives on the internet
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Because i like to play music and i like to code, this is enough reasons for me to try to make an app like this
 
-## Code scaffolding
+## Why are you using Angular for this?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Because it's the framework that i'm most familiarized, but i'm still felling that i'm not good enough on it
 
-## Build
+## Why BluJ?
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Because of my nickname, Josh, and the bird blue jay, i'm a fan of Mordecai from Regular Show.
 
-## Running unit tests
+## Next Steps
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+I'll keep this file updated with my next steps in case i forget what i have to do:
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Create or find an API that download a list of songs and metadatas
+- Make the music play when i click on the play button and pause when i click on the pause button
+- Change the song when i click on forward or backdard buttons
+- Make another component for list all the songs and play the song i select
