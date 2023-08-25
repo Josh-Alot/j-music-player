@@ -4,7 +4,7 @@
 @import url('https://unpkg.com/css.gg@2.0.0/icons/css/play-backwards.css');
 
 .player-container {
-   border-radius: 10%;
+   border-radius: 18%;
    background-color: rgba($color: #2b9348, $alpha: 0.8);
    margin: 2rem;
    padding: 4rem 0;
@@ -32,8 +32,28 @@
    }
 
    &--audio-container {
+      max-width: 500px;
+      margin-top: -4rem;
+      margin-bottom: 2rem;
+      padding: 20px;
+      
       audio {
          display: none;
+      }
+
+      &--progress-bar-container {
+         height: 10px;
+         background-color: #ccc;
+         border-radius: 5px;
+         margin-top: 10px;
+         position: relative;
+
+         .progress-bar {
+            height: 100%;
+            width: 0;
+            background-color: #0b090a;
+            border-radius: 5px;
+         }
       }
    }
 
@@ -50,16 +70,20 @@
 /* CSS.gg icons */
 .gg-play-button {
    --ggs: 5;
+   color: #0b090a;
 }
 
 .gg-pause-button {
    --ggs: 5;
+   color: #0b090a;
 }
 
 .gg-play-forwards {
    --ggs: 2;
+   color: #0b090a;
 }
 
 .gg-play-backwards {
    --ggs: 2;
+   color: #0b090a;
 }
