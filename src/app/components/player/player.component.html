@@ -27,13 +27,9 @@
       <button>
          <i class="gg-play-backwards"></i>
       </button>
-      <button>
-         <!-- 
-            TODO: change the button when the music is playing 
-            TODO: and change the button when the music is paused
-         -->
-         <!-- <i class="gg-play-pause"></i> -->
-         <i class="gg-play-button"></i>
+      <button (click)="changePlayIcon()">
+         <i *ngIf="!isSongPlaying" class="gg-play-button"></i>
+         <i *ngIf="isSongPlaying" class="gg-play-pause"></i>
       </button>
       <button>
          <i class="gg-play-forwards"></i>

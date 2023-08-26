@@ -71,14 +71,26 @@
 .gg-play-button {
    --ggs: 5;
    color: #0b090a;
+
+   &:active {
+      color: white;
+   }
 }
 
-.gg-pause-button {
+.gg-play-pause {
    --ggs: 5;
    color: #0b090a;
+
+   &:active {
+      color: white;
+   }
 }
 
 .gg-play-forwards {
+   &:active {
+      color: white;
+   }
+
    --ggs: 2;
    color: #0b090a;
 }
@@ -86,4 +98,8 @@
 .gg-play-backwards {
    --ggs: 2;
    color: #0b090a;
+
+   &:active {
+      color: white;
+   }
 }
